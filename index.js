@@ -28,8 +28,12 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
+
+  counter1 has closure, not counter2
   
   2. Which of the two uses a closure? How can you tell?
+
+  return function counter {} is the closure, it's inside another {}
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
